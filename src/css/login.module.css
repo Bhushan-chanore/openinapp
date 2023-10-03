@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+.board {
+  display: flex;
+  background-color:#346BD4;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.signInSpan {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: left;
+}
+
+.signInSpansmall {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 27px;
+}
+
+.register {
+  text-align: center;
+  font-family: Lato;
+  color: #858585;
+  order: 3
+}
+
+.boardtext {
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 385px;
+  height: 100%;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="uname"],
+input[type="password"] {
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #eaeaea !important;
+  padding: 10px;
+}
+
+.form {
+  font-family: Lato;
+  width: 385px;
+  height: 317px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px;
+  margin-top: 24px;
+  margin-bottom: 30px;
+  order: 2
+}
+
+.google {
+  order: 1
+}
+
+.signInButton {
+    font-family: Montserrat;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background-color:#346BD4;
+}
+
+.label {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.link {
+  text-decoration: none;
+  color: #346BD4;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.div2 {
+  width: 60%; 
+  background-color: #F5F5F5; 
+}
+
+.span1 {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.forgot {
+  text-align: left; 
+  margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width : 960px) {
+  .main {
+      flex-direction : column;
+  }
+
+  .board {
+    width: 100%;
+    height: 100px;
+  }
+
+  .div2 {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .boardtext {
+    font-size: 40px;
+  }
+
+  .form{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    order: 1;
+    width: 100%
+  } 
+
+  .google {
+    order: 2;
+    margin-bottom: 20px;
+  }
+
+  .login {
+    width: 95%;
+  }
+  .signInSpansmall {
+    margin-bottom: 10px;
+  }
+
+}

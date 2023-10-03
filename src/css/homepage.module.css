@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+.boardhome {
+  background-color:dodgerblue;
+  margin: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 944px;
+  width: 280px;
+  border-radius: 30px;
+  text-align: left;
+}
+
+.home {
+  flex-direction: row;
+  width: 100%;
+  height: max-content;
+  background-color: #f5f5f5;
+  overflow: auto;
+}
+
+.boardhead {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 60px;
+}
+
+.boardlist {
+  color: white;
+  margin-bottom: 30px;
+  height: 22px;
+  font-size: 14px;
+}
+
+.boardbottom {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.h70 {
+  height: 70%;
+}
+
+.fw700 {
+  font-weight: 700;
+}
+
+.h30 {
+  height: 30%;
+}
+
+.mobilehead {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .home {
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .boardhome {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    height: 10%;
+  }
+
+  .boardhead {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .boardlist {
+    margin-left: 20px;
+  }
+
+  .boardbottom {
+    margin-left: 20px;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+  .bars {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 700;
+    margin: 1% 1%;
+  }
+  .mobilehead {
+    display: flex;
+    text-align: center;
+  }
+  .spanBars{
+    padding: 0 2%;
+    cursor: pointer;
+  }
+}
